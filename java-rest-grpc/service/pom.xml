@@ -8,9 +8,9 @@
     </parent>
 
     <groupId>idv.sheng.java-rest-grpc</groupId>
-    <artifactId>domain</artifactId>
+    <artifactId>service</artifactId>
 
-    <name>domain</name>
+    <name>service</name>
     <url>http://maven.apache.org</url>
 
     <properties>
