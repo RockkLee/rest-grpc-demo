@@ -1,17 +1,20 @@
 package idv.sheng.infra.rest;
 
+import idv.sheng.app.port.input.service.GreetingService;
+import idv.sheng.domain.valueobject.ServerType;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GreetingApi {
-    @GetMapping("/hello/python")
-    public String helloPython() {
-        return "Todo: The grpc-client feature is not ready yet.";
-    }
+    @Autowired
+    private GreetingService greetingService;
 
-    @GetMapping("/hello/golang")
-    public String helloGo() {
-        return "Todo: The grpc-client feature is not ready yet.";
+    @GetMapping("/greet")
+    public String greetPython(String userName, int recipient, String msg) {
+        return greetingService.greet(userName, recipient, msg)
+                .getMsg();
+
     }
 }

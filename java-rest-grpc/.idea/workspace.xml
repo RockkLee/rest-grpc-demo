@@ -5,33 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f01c34-f196-4000-a995-8e9231a70be6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/idv/sheng/app/adapter/input/service/GreetingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/idv/sheng/app/dto/MsgDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/idv/sheng/app/dto/grpc/GreetingGrpcResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/idv/sheng/app/port/input/service/GreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/idv/sheng/app/port/output/publisher/GreetingPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/idv/sheng/app/port/output/publisher/GrpcPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/idv/sheng/app/port/output/repo/GreetingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/src/main/java/idv/sheng/JavaRestGrpcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/domain/common/entity/AggregateRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/domain/common/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/domain/common/event/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/domain/common/valueobject/BaseId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/domain/entity/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/domain/event/GreetingEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/domain/valueobject/GreetingId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/domain/valueobject/ServerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/adapter/output/publisher/GreetingPublisherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/grpc/client/GreetingGrpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/grpc/client/GrpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/grpc/client/GrpcClientType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/grpc/server/GreetingGrpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/src/main/proto/greeting.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/idv/sheng/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/idv/sheng/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/test/java/idv/sheng/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/idv/sheng/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/idv/sheng/JavaRestGrpcApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/container/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/idv/sheng/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/infra/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infra/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/JavaRestGrpcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/idv/sheng/JavaRestGrpcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/grpc/greeting_java.proto" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/grpc/greeting_java.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/rest/GreetingApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/rest/GreetingApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/rest/SpringDocConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/rest/SpringDocConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/grpc/greeting_java.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/rest/GreetingApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra/src/main/java/idv/sheng/infra/rest/GreetingApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/container/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/idv/sheng/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/idv/sheng/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/idv/sheng/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -45,13 +78,37 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sheng/Desktop/Learning/Code/Java/2024_Java/rest-grpc-demo/java-rest-grpc/domain/src/main/java/idv/sheng/domain/common",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sheng\Desktop\Learning\Code\Java\2024_Java\rest-grpc-demo\java-rest-grpc\domain\src\main\java\idv\sheng\domain\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sheng\Desktop\Learning\Code\Java\2024_Java\rest-grpc-demo\java-rest-grpc\infra\src\main\proto" />
+      <recent name="C:\Users\sheng\Desktop\Learning\Code\Java\2024_Java\rest-grpc-demo\java-rest-grpc\.idea" />
+      <recent name="C:\Users\sheng\Desktop\Learning\Code\Java\2024_Java\rest-grpc-demo\java-rest-grpc\infra\src\main\java\idv\sheng\infra\grpc\proto" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="idv.sheng.app" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="idv.sheng.domain.common.event" />
+      <recent name="idv.sheng.app.impl" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="JavaRestGrpcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="idv.sheng.JavaRestGrpcApplication" />
-      <module name="app" />
+      <module name="container" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="idv.sheng.*" />
@@ -78,5 +135,16 @@
       <updated>1713720615700</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
